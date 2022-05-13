@@ -1,0 +1,229 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://www.Xpeedstudio.com
+*/
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+
+    .main_contactus_area input[type=submit] {
+        width: 30%;
+    }
+
+    .headernumber {
+    position: absolute;
+    right: 120px;
+    top: 0;
+    color: white;
+    font-size: 23px;
+    padding: 28px 0 0 0;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    .list-inline>li {
+        display: inline-block;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    .brand-logo p {
+    color: white;
+    font-size: 23px;
+    padding: 25px 0 0 35px;
+    }
+
+    .headernumber {
+    position: absolute;
+    right: 77px;
+    top: 0;
+    color: white;
+    font-size: 15px;
+    padding: 30px 0 0 0;
+    }
+
+    .main_service_content .single_service {
+        margin-top: 0%;
+    }
+
+
+    .main_contactus_area input[type=submit] {
+        width: 35%;
+    }
+    .ourmap {
+        height: 653px;
+    }
+    .main_footer .footer_logo a img {
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 90%;
+    }
+    .cd-header a.brand-logo img {
+        width: 10%;
+    }
+
+    /*.popup {
+    margin: 0 25% 0 16%;
+    }*/
+
+    .popup {
+    margin: 0;
+    margin: 0;
+    width: 800px;
+    max-width: 100%;
+    left: 0;
+    }
+
+    .headernumber {
+    display: none;
+    }
+
+    #visibleonsmall {
+        display: block;
+        color: white;
+        padding-bottom: 45px;
+        font-size: 150%;
+    }
+
+    #calculator_h2 {
+        font-size: 29px;
+    }
+
+    #main-nav li a{
+        padding: 2% 10%;
+    }
+    .main_service_content img{
+        width:100%;
+    }
+    .main_service_content .single_service {
+        margin-top: 5%;
+        padding: 0% 2%;
+    }
+    .single_service.single_service_left_text {
+        margin-left: 0%;
+    }
+
+    .main_blog_area .single_blog_menu ul {
+        margin-top: 10%;
+    }
+    .single_blog_img img{
+        width:100%;
+    }
+
+    .abouttwenty {
+    height: 2220px;
+    }
+
+    .main_footer .footer_logo a img {
+        width: 20%;
+    }
+
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 85%;
+    }
+
+    #visibleonsmall {
+        display: block;
+        color: white;
+        padding-bottom: 45px;
+        font-size: 80%;
+    }
+
+    .popup {
+    margin: 0;
+    max-width: 100%;
+    left: 0;
+    }
+
+    .maintexthome {
+        font-size: 30px;
+    }
+
+    .main_home h1 {
+        font-size: 2rem;
+        line-height: 3.5rem;
+        color: #fff;
+        padding-bottom: 25px;
+    }
+
+
+    .main_home {
+        padding: 120px 20px 170px 20px;
+    }
+
+    .main_home ul {
+        font-size: 65%;
+    }
+
+    .main_home ul li {
+        padding-bottom: 15px;
+    }
+
+    .brand-logo p {
+      color: white;
+      font-size: 19px;
+      padding: 13px 0 0 22px;
+    }
+
+    .calc_h3 {
+      min-height: 85px;
+    }
+
+    .calc_p {
+      min-height: 110px;
+    }
+
+    .calculator_pad {
+      padding-top: 30px;
+    }
+
+    .abouttwenty {
+      height: 1650px;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 320px) {
+
+    html {
+        font-size: 70.5%;
+    }
+    .main_contactus_area input[type=submit] {
+        width: 40%;
+    }
+
+    .abouttwenty {
+    height: 1466px;
+}
+}
+
+
+@media (max-width: 852px){
+    .ourmap {
+        height: 680px;
+    }
+}
