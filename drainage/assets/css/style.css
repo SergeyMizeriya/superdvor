@@ -73,7 +73,7 @@ PRE LOADER
     overflow: hidden !important;
 }
 .preloader h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin-top: 200px;
     margin-bottom: 50px;
@@ -83,8 +83,8 @@ PRE LOADER
     height: 60px;
     position: absolute;
     left: 50%;
-    top: 50%;
-    margin: -20px 0 0 -20px;
+    top: 15%;
+    /* margin: -20px 0 0 -20px; */
 }
 
 /*==========================================
